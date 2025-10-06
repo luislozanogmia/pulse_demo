@@ -13,3 +13,4 @@ fastapi
 uvicorn
 transformers
 torch
+textblob

@@ -10,7 +10,7 @@ This early demo explored calendar-triggered task automation for sales email work
 
 ## Demo
 
-▶️ [Watch 2-minute demo](https://www.loom.com/share/e6c570ce6f1d403086c4c110c58388dc)
+▶️ [Watch 2-minute demo](https://www.loom.com/share/cb3b132aae444c2d86b53e9c3b2a09d9?sid=d1c93112-ffb0-4b1c-a00d-3150ac3a9432)
 
 Shows the system autonomously composing and sending an email after detecting a calendar task.
 
