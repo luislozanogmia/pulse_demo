@@ -1,0 +1,14 @@
+[
+  { "name": "Compose", "action": "new_email" },
+  { "name": "Inbox", "action": "open_inbox" },
+  { "name": "Starred", "action": "open_starred" },
+  { "name": "Snoozed", "action": "open_snoozed" },
+  { "name": "Sent", "action": "open_sent" },
+  { "name": "Drafts", "action": "open_drafts" },
+  { "name": "More", "action": "expand_labels" },
+  { "name": "Search mail", "action": "search_input" },
+  { "name": "Send", "action": "send_email" },
+  { "name": "To", "action": "input_to" },
+  { "name": "Subject", "action": "input_subject" },
+  { "name": "Cc Bcc", "action": "toggle_ccbcc" }
+]

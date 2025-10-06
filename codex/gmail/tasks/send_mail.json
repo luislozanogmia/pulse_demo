@@ -1,0 +1,25 @@
+{
+  "summary": { "value": "{summary}", "example": "Send email to Alex confirming MIA is live" },
+  "context": {
+    "task_name": { "value": "{task_name}", "example": "send_mail" },
+    "intent": { "value": "{intent}", "example": "Send a message to coworker" },
+    "platform": { "value": "{platform}", "example": "https://www.gmail.com" },
+    "variable_1": { "value": "{email}", "example": "alejandro@mia-labs.com" },
+    "variable_2": { "value": "{subject}", "example": "MIA is live" },
+    "variable_3": { "value": "{body}", "example": "Hi Alex, MIA is now live. Best, Luis" },
+    "variable_4": { "value": "{variable_4}", "example": "" },
+    "notes": { "value": "{notes}", "example": "Use formal startup tone" },
+    "list": "{list}"
+  },
+  "steps": [
+    { "type": "open", "target": "{platform}", "text": "", "actor": "automation", "note": "Open Gmail in browser", "step_name": "open_platform" },
+    { "type": "click", "target": "Compose", "text": "", "actor": "automation", "note": "Click Compose button", "step_name": "click_compose" },
+    { "type": "type", "target": "", "text": "{variable_1}", "actor": "automation", "note": "Type recipient email", "step_name": "type_email" },
+    { "type": "key", "text": "tab", "actor": "automation", "note": "Move to Subject field" },
+    { "type": "type", "target": "", "text": "{variable_2}", "actor": "automation", "note": "Write the Subject", "step_name": "subject" },
+    { "type": "key", "text": "tab", "actor": "automation", "note": "Move to Subject field" },
+    { "type": "type", "target": "", "text": "{variable_3}", "actor": "automation", "note": "Write the email body", "step_name": "body" },
+    { "type": "key", "target": "", "text": "command+enter", "actor": "automation", "note": "Send the email", "step_name": "send_email" },
+    { "type": "close", "target": "gmail", "text": "", "actor": "automation", "note": "Close Gmail tab", "step_name": "close_tab" }
+  ]
+}
