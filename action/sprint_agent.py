@@ -325,8 +325,8 @@ def type_or_paste(text):
 
 # Config
 SPRINT_INTERVAL = 5
-SPRINT_LOG_PATH = "action/sprint_log"
-SCREENSHOT_DIR = "screenshots"
+SPRINT_LOG_PATH = os.path.expanduser("~/Documents/pulse_logs/sprint_log")
+SCREENSHOT_DIR = os.path.expanduser("~/Documents/pulse_logs/screenshots")
 os.makedirs(SPRINT_LOG_PATH, exist_ok=True)
 os.makedirs(SCREENSHOT_DIR, exist_ok=True)
 

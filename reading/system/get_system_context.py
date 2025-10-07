@@ -49,7 +49,7 @@ def get_full_system_context(save_to_file: bool = True) -> dict:
     }
 
     if save_to_file:
-        logs_dir = os.path.join(os.path.dirname(__file__), "logs")
+        logs_dir = os.path.expanduser("~/Documents/pulse_logs/system")
         os.makedirs(logs_dir, exist_ok=True)
         output_path = os.path.join(logs_dir, "system_snapshot.json")
         with open(output_path, "w") as f:
