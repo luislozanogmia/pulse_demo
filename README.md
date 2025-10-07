@@ -78,7 +78,7 @@ Original use case: automating sales email workflows triggered by calendar events
 
 ## Context
 
-Built this as an exploration of AI systems that operate proactively rather than reactively. The core insight — that AI should monitor context and act independently — emerged several months before similar proactive AI concepts were announced publicly by larger companies.
+Built this as an exploration of AI systems that operate proactively rather than reactively. The core insight that AI should monitor context and act independently emerged several months before similar proactive AI concepts were announced publicly by larger companies.
 
 ## Notes
 
